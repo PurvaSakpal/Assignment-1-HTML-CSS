@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>middle portion</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        .container{display: flex;flex-direction: column;justify-content: space-between;}
+        .section1 .sec1 .ssec1{display:inline;border-radius: 50%;}
+        .section1{
+  max-width: 1900px;
+  margin: auto;
+  
+  overflow: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 45%;
+  
+}
+.sec{
+  margin: 20px;
+  border: 3px solid gainsboro;
+  box-shadow:  1px 10px gainsboro;
+  float: left;
+  width: 400px;
+  
+}
+.sec img{
+  width: 350px;
+  height: 100px;
+  padding: 10px 10px 10px 20px;
+
+ 
+}
+.ssec img{
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+.ssec p{padding-top: 10px;}
+.below{
+  margin:0px 50px 0px 50px;
+  overflow: hidden;
+  
+}
+.section2 {
+  
+  border-top: 3px solid gainsboro;
+  border-bottom: 3px solid gainsboro;
+
+
+  max-width: 1900px;
+  margin: auto;
+  
+  overflow: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 45%;
+  
+  display: flex;
+  
+} 
+.sec2{
+  width: 33%;
+  overflow: auto;
+}
+.sec2 p{margin: 30px 0px 0px 100px;padding: 10px;color: rgb(77, 71, 71);padding-top: 8px;font-weight: 50;}
+.sec2  img {
+
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 90px;
+  float: left;
+}
+/* .icons{display: flex;justify-content: space-evenly;} */
+.icons h3 :not(first child){
+
+  font-size: 30px;
+  margin:10px 0px 0px 50px;
+  color: gainsboro;
+}
+@media screen and (max-width:810px) {
+    .sec{width: fit-content;}
+}
+@media screen and (max-width:510px) {
+    .sec2 p{display: none;}
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section1">
+            <div class="sec">
+                <img src="img/img3.jpg" alt="img1">
+                <div class="ssec">
+                    <img src="img/img1.jpg" alt="">
+                    <p><b>You Neglect Your Friends</b><br>Author...</p>
+                </div>
+            </div>
+            <div class="sec">
+                <img src="img/img3.jpg" alt="img1">
+                <div class="ssec">
+                    <img src="img/img2.jpg" alt="">
+                    <p><b>You Forget your Dreams</b><br>Author...</p>
+                </div>
+            </div>
+            <div class="sec">
+                <img src="img/img3.jpg" alt="img1">
+                <div class="ssec">
+                    <img src="img/img3.jpg" alt="">
+                    <p><b>You supress your feelings</b><br>Author...</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="below">
+            <div class="section2">
+                <div class="sec2">
+                    <img src="img/img1.jpg" alt="">
+                    <p><b>Oct 18<br><span>I would like to avoid making this mistakes</span></b></p>
+                </div>
+                <div class="sec2">
+                    <img src="img/img2.jpg" alt="">
+                    <p><b>Oct 8<br><span>But how do you avoid mistakes that you make default?</span></b></p>
+                </div>
+                <div class="sec2">
+                    <img src="img/img3.jpg" alt="">
+                    <p><b>Oct 2<br><span>Never underestimate youself</span></b></p>
+                </div>
+            </div>
+            <div class="icons">
+                <h3>
+                    <span>Featured on:</span>&nbsp;
+                   <span style="font-family: 'Bangers', cursive;">New Texas Time</span>
+                  <span style="font-family: 'Diplomata', cursive;">wooden</span>
+                  <span style="font-family: 'Dancing Script', cursive;">VREMYA</span>
+                  <span style="font-family: 'Diplomata', cursive;">Open Book</span>
+                  <span><i class="fab fa-twitter"></i></span>
+                </h3>
+                </div>
+        </div>
+        
+    </div>
+ 
+</body>
+</html>
